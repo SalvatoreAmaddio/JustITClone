@@ -1,0 +1,128 @@
+:root 
+{
+    --light: #f8f9fa;
+    --green1: #216E70;
+    --font0: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
+    --font1: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper 
+{
+    background-color: var(--light);
+}
+
+main 
+{
+    font-family: var(--font1);
+}
+
+#banner 
+{
+    background-color: var(--green1);
+    color: var(--light);
+    text-align: center;
+    padding: .8rem;
+    font-weight: bolder;
+    font-family: var(--font1);
+    letter-spacing: .65px;
+}
+
+#intro 
+{
+    display: flow-root;
+    position: relative;
+}
+
+#subintro 
+{
+    border: 1px solid red;
+}
+
+#introText 
+{
+    width: 50%;
+    background-color: var(--green1);
+    color: var(--light);
+    border-radius: 0rem 0% 0% 0%;
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    padding: 9.6rem;
+}
+
+#introText p 
+{
+    font-size: 3rem;
+    border: 1px solid red;
+}
+
+#subintro img 
+{
+    display: block;
+    position: absolute;
+    right: 0px;
+    top:0px;
+    width: 50%;
+    z-index: 1;
+    border-radius: 0rem 0rem 11rem 0rem;
+}
+
+#whoareuContainer
+{
+    border: 1px solid black;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: -7.5rem;
+    z-index: 3;
+    background-color: white;
+    display: flow-root;
+    border-radius: .5rem;
+}
+
+.whoareu 
+{
+    float: left;
+    width: 50%;
+    text-align: center;
+    letter-spacing: .5px;
+    padding: 3rem;
+}
+
+.whoareu p:first-of-type
+{
+    font-size: 1.8rem;
+    padding: .5rem;
+}
+
+.whoareu p:last-of-type
+{
+    font-size: 1.1rem;
+}
+
+.whoareu button
+{
+    margin-top: 1.5rem;
+    border-width: 1px;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #2E5EAA;
+    border-color: #2E5EAA;
+    color: #fff;
+    cursor: pointer;
+}
+
+.whoareu img 
+{
+    display: block;
+    margin: 0 auto;
+}

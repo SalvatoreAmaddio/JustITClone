@@ -1,0 +1,101 @@
+nav 
+{
+    display: flow-root;
+    border: 1px solid black;
+    padding: 1rem;
+    padding-right: 0;
+    padding-top: 2rem;
+    font-family: var(--font1);
+}
+
+#logoContainer 
+{
+    border: 1px solid black;
+    width: 22%;
+    float: left;
+}
+
+#logoContainer img
+{
+    display: inline-block;
+    width: 100%;
+}
+
+#others 
+{
+    margin-left: auto;
+    border: 1px solid black;
+    display: flow-root;
+    width: fit-content;
+    color: var(--green1);
+    padding: 1rem;
+}
+
+#others p 
+{
+    float: left;
+    letter-spacing: .5px;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+#others p:first-child
+{
+    padding-right: 2rem;
+    padding-top: .1rem;
+    border-right: 1px solid black;
+}
+
+#others p:last-child 
+{
+    padding-left: 2rem;
+}
+
+#others span 
+{
+    font-size: 1.2rem;
+}
+
+#menuBar 
+{
+    display: flow-root;
+    border: 1px solid black;
+    width: 78%;
+}
+
+nav a 
+{
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    padding-top: 0rem;
+    font-size: .9rem;
+    letter-spacing: .5px;
+    padding-bottom: 2rem;
+}
+
+nav ul 
+{
+    list-style-type: none;
+}
+
+nav ul li 
+{
+    float: left;
+}
+
+#searchButtonContainer 
+{
+    border: 1px solid black;
+    width: 2.5rem;
+    position: relative;
+    display: flow-root;
+}
+
+#searchButtonContainer img 
+{
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: -.9rem;
+}
