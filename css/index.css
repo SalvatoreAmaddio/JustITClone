@@ -208,38 +208,101 @@ h1
     top: -.5rem;
 }
 
-#partners 
+#partners, #customers 
 {
     background-color: #FAFAFA;
     text-align: center;
     padding: 5rem 0;
-    border: 1px solid;
+    border: 1px solid red;
 }
 
 #carousel 
 {
     position: relative;
-    display: flow-root;
     margin-top: 3rem;
-    padding: 3rem 1rem;
+    padding: 3rem 0rem;
+    overflow: hidden;
+}
+
+#pictures 
+{
+    position: relative;
+    overflow: hidden;
+    max-height: 8.4rem;
+    justify-content: space-between;
+    white-space: nowrap;
+    display: flex;
+}
+
+#pictures img
+{
     border: 1px solid;
+    display: inline-block;
+    width: 200px;
+    height: 133px;
+    margin-right: 2.5rem;
+    padding: 0;
+    position: relative;
+    left: 0rem;
 }
 
 .button 
 {
     display: block;
     width: fit-content;
-    padding: .8rem;
+    width: 2rem;
+    height: 2rem;
+    padding: .3rem;
     border-radius: .1rem;
     background-color: var(--green);
     color: white;
     position: absolute;
+    top: 50%;
 }
 
-.button:last-of-type
+#carousel .button:first-of-type
+{
+    left: 1rem;
+} 
+
+#carousel .button:last-of-type
 {
     right: 1rem;
 } 
+
+#carousel2 
+{
+    position: relative;
+    margin-top: 3rem;
+    padding: 3rem 0rem;
+    overflow: hidden;
+}
+
+#latest 
+{
+    display: flow-root;
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 5rem;
+}
+
+#groupNews 
+{
+    margin-top: 3rem;
+    display: flow-root;
+    border: 1px solid red;
+}
+
+.news 
+{
+    display: flow-root;
+
+}
+
+.news img 
+{
+    display: block;
+}
 
 @media screen and (max-width: 961.5px) 
 {
