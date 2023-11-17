@@ -3,16 +3,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-rendering: optimizeLegibility;
 }
 
 section 
 {
     display: flow-root;
     background-color: #216E70;
-    border-radius: 0rem 0% 50% 50%;
     color: white;
     overflow: hidden;
     font-family: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    transform: skewX(1.5);
 }
 
 #containerImg 
@@ -22,30 +23,39 @@ section
     z-index: 1;
 }
 
+#containerImg img
+{
+    width: 107%;
+}
+
 #text
 {
-    border: 1px solid;
     background-color: inherit;
-    padding: 5rem 0;
-    border-radius: 0rem 100% 100% 0rem;
+    border-radius: 50%;
     max-width:58.5%;
-    position: relative;
+    position: absolute;
     z-index: 2;
+    padding: 20rem;
+    top: -7rem;
+    left: 7.9rem;
+}
+
+#textContent 
+{
+    margin:0 auto;
+    width: fit-content;
+    border: 1px solid red;
+    max-width: 50%;
 }
 
 #text h1 
 {
     font-size: 86px;
-    width: fit-content;
-    border: 1px solid red;
-    max-width: 50%;
-    margin:0 auto;
     font-weight: normal;
 }
 
 #text p 
 {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 18px;
-    text-align: center;
 }
