@@ -1,16 +1,18 @@
 nav 
 {
     display: flow-root;
-    border: 1px solid black;
     padding: 1rem;
     padding-right: 0;
     padding-top: 2rem;
     font-family: var(--font1);
+    position: sticky;
+    top: 0rem;
+    z-index: 99;
+    background-color: #fff;
 }
 
 #logoContainer 
 {
-    border: 1px solid black;
     width: 22%;
     float: left;
 }
@@ -24,7 +26,6 @@ nav
 #others 
 {
     margin-left: auto;
-    border: 1px solid black;
     display: flow-root;
     width: fit-content;
     color: var(--green1);
@@ -59,7 +60,6 @@ nav
 #menuBar 
 {
     display: flow-root;
-    border: 1px solid black;
     width: 78%;
 }
 
@@ -67,11 +67,16 @@ nav a
 {
     text-decoration: none;
     display: block;
-    padding: 1rem;
+    padding: 1rem 1rem;
     padding-top: 0rem;
-    font-size: .9rem;
+    font-size: 1.1rem;
     letter-spacing: .5px;
     padding-bottom: 2rem;
+}
+
+nav ul li a:last-child 
+{
+    padding-right: 0;
 }
 
 nav ul 
