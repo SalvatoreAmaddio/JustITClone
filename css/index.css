@@ -1,3 +1,8 @@
+h1 
+{
+    font-size: 2.1rem;
+}
+
 #banner 
 {
     background-color: var(--green);
@@ -136,7 +141,6 @@
 
 .descriptionTitle 
 {
-    font-size: 2.1rem;
     padding: 0 1.8rem;
     margin-bottom: 1rem;
     width: 100%;
@@ -203,6 +207,40 @@
 {
     top: -.5rem;
 }
+
+#partners 
+{
+    background-color: #FAFAFA;
+    text-align: center;
+    padding: 5rem 0;
+    border: 1px solid;
+}
+
+#carousel 
+{
+    position: relative;
+    display: flow-root;
+    margin-top: 3rem;
+    padding: 3rem 1rem;
+    border: 1px solid;
+}
+
+.button 
+{
+    display: block;
+    width: fit-content;
+    padding: .8rem;
+    border-radius: .1rem;
+    background-color: var(--green);
+    color: white;
+    position: absolute;
+}
+
+.button:last-of-type
+{
+    right: 1rem;
+} 
+
 @media screen and (max-width: 961.5px) 
 {
     #banner 
