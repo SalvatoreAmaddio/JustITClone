@@ -1,31 +1,6 @@
-:root 
-{
-    --light: #f8f9fa;
-    --green1: #216E70;
-    --font0: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
-    --font1: "Open Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-* 
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-#wrapper 
-{
-    background-color: var(--light);
-}
-
-main 
-{
-    font-family: var(--font1);
-}
-
 #banner 
 {
-    background-color: var(--green1);
+    background-color: var(--green);
     color: var(--light);
     text-align: center;
     padding: .8rem;
@@ -34,67 +9,13 @@ main
     letter-spacing: .65px;
 }
 
-#intro 
-{
-    display: flow-root;
-    position: relative;
-    background-color: var(--green1);
-    overflow: hidden;
-    border-radius: 0 0 20% 20%;
-}
-
-#subintro 
-{
-}
-
-#introText 
-{
-    width: 50%;
-    background-color: var(--green1);
-    color: var(--light);
-    position: relative;
-    z-index: 2;
-    float: left;
-    padding: 0rem 3.5rem;
-}
-
-#introText p:first-child 
-{
-    font-size: 86px;
-    letter-spacing: 1px;
-    position: relative;
-    top: 1rem;
-    left: 2rem;
-    width: fit-content;
-}
-
-#introText p:last-child 
-{
-    margin-top: 3rem;
-    margin-left: 1rem;
-    text-align: center;
-    font-size: 18px;
-    width: fit-content;
-}
-
-#subintro img 
-{
-    display: block;
-    position: relative;
-    float: right;
-    right: -2rem;
-    top:0px;
-    width: 50%;
-    z-index: 1;
-}
-
 #whoareuContainer
 {
     border: 1px solid black;
     width: 70%;
     margin: 0 auto;
     position: relative;
-    top: 4rem;
+    top: -5.5vw;
     z-index: 3;
     background-color: white;
     display: flow-root;
@@ -108,11 +29,11 @@ main
     text-align: center;
     letter-spacing: .5px;
     padding: 3rem;
+    font-size: 1.8rem;
 }
 
 .whoareu p:first-of-type
 {
-    font-size: 1.8rem;
     padding: .5rem;
 }
 
@@ -123,6 +44,8 @@ main
 
 .whoareu button
 {
+    display: block;
+    margin: 0 auto;
     margin-top: 1.5rem;
     border-width: 1px;
     border-radius: .5rem;
@@ -139,4 +62,110 @@ main
 {
     display: block;
     margin: 0 auto;
+}
+
+#kpiContainer 
+{
+    display: flow-root;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.kpi 
+{
+    font-size: 1.61rem;
+    text-align: center;
+    width: fit-content;
+    padding: 0 .8rem;
+    float: left;
+}
+
+.kpiFigure 
+{
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.kpiFigure h1
+{
+    position: inherit;
+    margin: 0 auto;
+    width: fit-content;
+    z-index: 2;
+}
+
+.kpiFigure span 
+{
+    display: block;
+    width: 100%;
+    position: absolute;
+    background-color: #00A896;
+    padding: 0.4rem;
+    bottom: 5px;
+    z-index: 1;
+}
+
+.kpi p 
+{
+    padding: .5rem;
+    font-size: 1.159rem;
+    color: grey;
+}
+
+@media screen and (max-width: 961.5px) 
+{
+    #banner 
+    {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 874.5px) 
+{
+    #banner 
+    {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 788.5px) 
+{
+    #banner 
+    {
+        font-size: .7rem;
+        line-height: 1.6;
+    }
+
+    .whoareu 
+    {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 650.5px) 
+{
+    .whoareu 
+    {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 555.5px) 
+{
+    .whoareu 
+    {
+        padding: .5rem;
+        font-size: 1rem;
+    }
+
+    .whoareu button
+    {
+        font-size: 1rem;
+    }
+
+    .whoareu p:last-of-type
+    {   
+        font-size: .8rem;
+    }
 }
