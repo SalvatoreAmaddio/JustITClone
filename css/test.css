@@ -1,0 +1,62 @@
+a 
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul 
+{
+    list-style-type: none;
+}
+
+#banner 
+{
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--primary);
+    padding: .53rem 1rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: .769rem;
+}
+
+#intro 
+{
+    display: flow-root;
+    width: 100%;
+    background-color: var(--primary);
+    border: 1px solid red;
+    position: relative;
+}
+
+#intro img 
+{
+    display: block;
+    float: right;
+    min-width: 50%;
+    max-width: 50%;
+}
+
+#mission 
+{
+    min-width: 50%;
+    max-width: 50%;
+    border: 1px solid red;
+    float: left;
+    color: var(--white);
+    background-color: var(--primary);
+    text-align: center;
+}
+
+#mission h2 
+{
+    font-weight: 600;
+    font-size: 3rem;
+    padding: 0 9rem;
+    padding-top: 5rem;
+}
+
+#mission p 
+{
+    margin-top: 1rem;
+}

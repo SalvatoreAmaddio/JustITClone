@@ -1,106 +1,100 @@
 nav 
 {
-    display: none;
-    padding: 1rem;
-    padding-right: 0;
-    padding-top: 2rem;
-    font-family: var(--font1);
-    position: sticky;
-    top: 0rem;
-    z-index: 99;
-    background-color: #fff;
-}
-
-#logoContainer 
-{
-    width: 22%;
-    float: left;
-}
-
-#logoContainer img
-{
-    display: inline-block;
-    width: 100%;
-}
-
-#others 
-{
-    margin-left: auto;
     display: flow-root;
-    width: fit-content;
-    color: var(--green1);
-    padding: 1rem;
-}
-
-#others p 
-{
-    float: left;
-    letter-spacing: .5px;
-    font-size: .9rem;
-    font-weight: bold;
-}
-
-#others p:first-child
-{
-    padding-right: 2rem;
-    padding-top: .1rem;
-    border-right: 1px solid black;
-}
-
-#others p:last-child 
-{
-    padding-left: 2rem;
-}
-
-#others span 
-{
-    font-size: 1.2rem;
+    padding: 1.1rem 6rem;
 }
 
 #menuBar 
 {
     display: flow-root;
-    width: 78%;
-}
-
-nav a 
-{
-    text-decoration: none;
-    display: block;
-    padding: 1rem 1rem;
-    padding-top: 0rem;
-    font-size: 1.1rem;
-    letter-spacing: .5px;
-    padding-bottom: 2rem;
-}
-
-nav ul li a:last-child 
-{
-    padding-right: 0;
+    margin-top: 3.6rem;
 }
 
 nav ul 
 {
-    list-style-type: none;
+    display: block;
 }
 
 nav ul li 
 {
     float: left;
-}
-
-#searchButtonContainer 
-{
-    border: 1px solid black;
-    width: 2.5rem;
-    position: relative;
-    display: flow-root;
-}
-
-#searchButtonContainer img 
-{
-    width: 100%;
     display: block;
-    position: absolute;
-    top: -.9rem;
+}
+
+.menuItem a 
+{
+    font-weight: 600;
+    font-size: .8rem;
+    padding: .8rem 1rem;
+}
+
+ul li:first-child .menuItem a 
+{
+    padding-left:2rem;
+}
+
+ul li:last-child .menuItem a 
+{
+    padding-right: 0;
+}
+
+.dropDownIcon 
+{
+    padding-top: 2px;
+    vertical-align: super;
+    height: 7px;
+}
+
+#logo 
+{
+    min-width: 24%;
+    width: fit-content;
+    float: left;
+}
+
+#logo img
+{
+    display: block;
+    max-width: 250px;
+    height: auto;
+    border-style: none;
+}
+
+#searchVacancy 
+{
+    text-align: end;
+    float: right;
+    min-width: 76%;
+    color: var(--primary);
+    font-weight: 600;
+    font-size: .8rem;
+    padding: 1rem 0;
+}
+
+#searchVacancy span 
+{
+    font-size: 1rem;
+}
+
+#searchVacancy a 
+{
+    padding: 0 2rem;
+}
+
+#searchVacancy a:first-child 
+{
+    border-right: 1px solid;
+}
+
+#searchBar 
+{
+    float: right;
+    position: relative;
+    top: -1.5rem;
+}
+
+#searchBar img 
+{
+    display: block;
+    width: 1.7rem;
 }
