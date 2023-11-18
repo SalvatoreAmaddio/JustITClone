@@ -24,39 +24,32 @@ ul
 {
     display: flow-root;
     width: 100%;
-    background-color: var(--primary);
-    border: 1px solid red;
     position: relative;
-}
-
-#intro img 
-{
-    display: block;
-    float: right;
-    min-width: 50%;
-    max-width: 50%;
 }
 
 #mission 
 {
-    min-width: 50%;
-    max-width: 50%;
-    border: 1px solid red;
-    float: left;
+    background-repeat: no-repeat;
+    background-position: right;
     color: var(--white);
     background-color: var(--primary);
-    text-align: center;
+    padding-bottom: 3.6rem;
+    border-radius: 0 0 9rem 9rem;
 }
 
 #mission h2 
 {
-    font-weight: 600;
-    font-size: 3rem;
-    padding: 0 9rem;
-    padding-top: 5rem;
+    max-width: 50%;
+    padding: 2.5rem 9rem;
+    padding-bottom: 1.3rem;
+    font-size: 4.5rem;
+    line-height: 1.05em;
+    font-weight: normal;
 }
 
 #mission p 
 {
-    margin-top: 1rem;
+    max-width: 50%;
+    padding: 0rem 8rem;
+    margin-bottom: 3.7rem;
 }
