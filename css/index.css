@@ -1,17 +1,13 @@
-h1 
-{
-    font-size: 2.1rem;
-}
-
 #banner 
 {
     background-color: var(--green);
     color: var(--light);
     text-align: center;
-    padding: .8rem;
-    font-weight: bolder;
     font-family: var(--font1);
     letter-spacing: .65px;
+    font-weight: 700;
+    padding: 10px 20px;
+    font-size: 1rem;
 }
 
 #whoareuContainer
@@ -39,27 +35,34 @@ h1
 
 .whoareu p:first-of-type
 {
+    font-size: 1.777rem;
+    color: #333333;
     padding: .5rem;
+    font-weight: 600 !important;
 }
 
 .whoareu p:last-of-type
 {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    color: var(--gray);
+    line-height: 1.66em;
 }
 
 .whoareu button
 {
     display: block;
     margin: 0 auto;
+    min-width: 160px;
     margin-top: 1.5rem;
-    border-width: 1px;
-    border-radius: .5rem;
-    padding: .5rem 1.5rem;
-    font-size: 1.3rem;
-    font-weight: bold;
+    border: 1px solid transparent;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 5px;
+    font-weight: 700 !important;
+    color: #fff;
     background-color: #2E5EAA;
     border-color: #2E5EAA;
-    color: #fff;
     cursor: pointer;
 }
 
@@ -73,15 +76,20 @@ h1
 {
     display: flow-root;
     margin: 0 auto;
-    width: 70%;
+    width: 85%;
     padding-bottom: 5rem;
+}
+
+#kpiContainer .kpi:last-child 
+{
+    padding-right: 0;
 }
 
 .kpi 
 {
     font-size: 1.61rem;
     text-align: center;
-    padding: 0 .8rem;
+    padding: 0 3rem;
     float: left;
 }
 
@@ -96,6 +104,8 @@ h1
 {
     position: inherit;
     margin: 0 auto;
+    font-size: 2.2rem;
+    line-height: 1.35em;
     width: fit-content;
     z-index: 2;
 }
@@ -114,8 +124,8 @@ h1
 .kpi p 
 {
     padding: .5rem;
-    font-size: 1.159rem;
-    color: grey;
+    font-size: 1rem;
+    color: var(--gray);
 }
 
 .candEmp
@@ -123,8 +133,8 @@ h1
     display: flow-root;
     width: 88.5%;
     margin: 0 auto;
-    border: 1px solid;    
     padding-bottom: 5rem;
+    padding-bottom: 8.4375rem;
 }
 
 .candEmp:nth-of-type(odd) .descriptionContainer 
@@ -141,6 +151,7 @@ h1
 
 .descriptionTitle 
 {
+    font-size: 3.125rem;
     padding: 0 1.8rem;
     margin-bottom: 1rem;
     width: 100%;
@@ -205,12 +216,15 @@ h1
 
 .itemList span, .itemList svg 
 {
+    color: var(--gray);
+    font-weight: 600 !important;
     top: -.5rem;
 }
 
 #partners, #customers 
 {
     background-color: #FAFAFA;
+    font-size: 2.25rem;
     text-align: center;
     padding: 5rem 0;
     border: 1px solid red;
@@ -253,6 +267,7 @@ h1
     width: 2rem;
     height: 2rem;
     padding: .3rem;
+    font-size: 1rem;
     border-radius: .1rem;
     background-color: var(--green);
     color: white;
@@ -282,45 +297,80 @@ h1
 {
     display: flow-root;
     margin: 0 auto;
-    width: 70%;
+    font-size: 3.125rem;
+    width: 85%;
     padding-bottom: 5rem;
 }
 
 #groupNews 
 {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     display: flow-root;
-    border: 1px solid red;
+    width: fit-content;
+}
+
+#groupNews a 
+{
+    text-decoration: none;
+}
+
+#groupNews img 
+{
+    display: block;
+    width: 23%;
+    min-height: 302.097px;
+    max-height: 302.097px;
+    float: left;
 }
 
 .news 
 {
-    display: flow-root;
-    width: 22%;
+    width: 23%;
+    min-height: 302.097px;
+    max-height: 302.097px;
     position: relative;
     padding: 42px;
+    float: left;
     border: 1px solid black;
+    margin-right: 2.65rem;
+    margin-bottom: 1rem;
+}
+
+#groupNews .news:nth-of-type(3), #groupNews .news:nth-of-type(6) 
+{
+    margin-right: 0;
+}
+
+#groupNews .news:nth-of-type(4), #groupNews .news:nth-of-type(5), #groupNews .news:nth-of-type(6) 
+{
+    margin-bottom: 0;
 }
 
 .news h3
 {
-    font-weight: normal;
-    font-size: 20px;
-    margin-bottom: 60.0417px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600 !important;
 }
 
 .news span 
 {
-    font-size: .815rem;
+    text-transform: uppercase;
+    color: #216E70;
+    font-size: 0.6rem;
+    letter-spacing: 0.5px;
     display: block;
     margin-bottom: .5rem;
 }
 
 .readMore 
 {
-    font-size: .815rem;
+    position: absolute;
+    bottom: 0;
+    font-weight: 600 !important;
+    margin-bottom: 60px;
     border: 1px solid;
-    margin-top: 60.0417px;
+    font-size: 0.8rem;
 }
 
 @media screen and (max-width: 961.5px) 
