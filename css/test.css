@@ -20,8 +20,8 @@ ul
     font-size: .769rem;
 }
 
-/*CANDIDATES AND EMPLOYEES*/
-#candEmp 
+/*WHO ARE U*/
+#whoAreUSection
 {
     position: relative;
     top: -2.9rem;
@@ -127,4 +127,74 @@ ul
     position: relative;
     background-color: var(--secondary);
     top: -0.2rem;
+}
+
+/*CAND EMP*/
+
+#candEmpSection
+{
+    border: 1px solid red;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.candEmp
+{
+    width: 75%;
+    margin: 0 auto;
+    display: flow-root;
+    border: 1px solid red;
+}
+
+.candEmpImgContainer 
+{
+    float: left;
+    width: 50%;
+    padding-top: 3.5rem;
+    border: 1px solid black;
+}
+
+.candEmpImgContainer img 
+{
+    max-width: 90%;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 25px 25px var(--primary), -25px -25px var(--secondary);
+}
+
+.candEmpDescription 
+{
+    float: left;
+    width: 50%;
+    padding: 0 .9rem;
+}
+
+.candEmpDescription ul 
+{
+    padding-top: 2rem;
+}
+
+.candEmpDescription ul li 
+{
+    margin-bottom: 1rem;
+    border: 1PX solid;
+}
+
+.candEmpDescription ul li span, .candEmpDescription ul li img 
+{
+    border: 1PX solid;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.candEmpDescription h2 
+{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.candEmpDescription p 
+{
+    line-height: 1.6;
+    color: var(--gray);
 }
