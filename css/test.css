@@ -226,6 +226,7 @@ ul
 .browserButtons 
 {
     position: absolute;
+    text-align: center;
     display: block;
     width: fit-content;
     background-color: var(--primary);
@@ -313,21 +314,36 @@ ul
 
 .feedbackContainer
 {
-    border: 1px solid red;
-    width: 60%;
+    width: 61%;
     margin: 0 auto;    
     display: flow-root;
 }
 
-.buttons 
+#buttons 
 {
     position: relative;
+    width: fit-content;
+    display: flow-root;
+    left: 93%;
+    top: 3rem;
+    clear: both;
+}
+
+#buttons .browserButtons 
+{
+    position: static;
+    float: left;
+    margin-left: 0;
+}
+
+#buttons .scrollerNextButton 
+{
+    margin-left: .5rem;
 }
 
 .feedbackLogo 
 {
     float: left;
-    border: 1px solid red;
     width: 50%;
     text-align: end;
 }
@@ -342,7 +358,6 @@ ul
     min-height: 12rem;
     padding: 1rem;
     float: left;
-    border: 1px solid red;
     width: 50%;
     background: url('/img/icons/icon-quote.svg') no-repeat top left;
     background-position-x: 1rem;
