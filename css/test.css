@@ -131,19 +131,12 @@ ul
 
 /*CAND EMP*/
 
-#candEmpSection
-{
-    border: 1px solid red;
-    padding-top: 5rem;
-    padding-bottom: 10rem;
-}
-
 .candEmp
 {
     width: 75%;
+    padding: 5rem 0;
     margin: 0 auto;
     display: flow-root;
-    border: 1px solid red;
 }
 
 .candEmpImgContainer 
@@ -151,7 +144,11 @@ ul
     float: left;
     width: 50%;
     padding-top: 3.5rem;
-    border: 1px solid black;
+}
+
+.candEmp:nth-child(even) .candEmpImgContainer 
+{
+    float: right;
 }
 
 .candEmpImgContainer img 
@@ -177,14 +174,27 @@ ul
 .candEmpDescription ul li 
 {
     margin-bottom: 1rem;
-    border: 1PX solid;
+}
+
+.candEmpDescription ul li img:first-child 
+{
+    width: 2.5rem;
+}
+
+.candEmpDescription ul li img:last-child
+{
+    width: .3rem;
 }
 
 .candEmpDescription ul li span, .candEmpDescription ul li img 
 {
-    border: 1PX solid;
     display: inline-block;
     vertical-align: middle;
+}
+
+.candEmpDescription ul li span 
+{
+    margin-left: 1.1rem;
 }
 
 .candEmpDescription h2 
