@@ -29,28 +29,48 @@ ul
 
 #mission 
 {
+    position: relative;
     background-repeat: no-repeat;
     background-position: right;
     background-color: var(--primary);
     background-size: 50%;
     color: var(--white);
-    padding-bottom: 3.6rem;
-    border-radius: 0 0 9rem 9rem;
 }
 
-#mission h2 
+#missionStatement
 {
-    max-width: 50%;
-    padding: 2.5rem 9rem;
-    padding-bottom: 1.3rem;
-    font-size: 4.5rem;
-    line-height: 1.05em;
+    font-size: 2.5rem;
+    padding: 1rem 10rem;
+    line-height: 5rem;
+    width: 50%;
+    z-index: 1;
+}
+
+#missionStatement h2 
+{
     font-weight: normal;
 }
 
-#mission p 
+#subMission 
 {
-    max-width: 50%;
-    padding: 0rem 8rem;
-    margin-bottom: 3.7rem;
+    width: 50%;
+    padding-left: 8rem;
+}
+
+#decorBottom 
+{
+    position: relative;
+    top: 1.5rem;
+}
+
+#decorRight 
+{
+    position: absolute;
+    border: 1px solid black;
+    z-index: 2;
+}
+
+#decorRight svg 
+{
+    display: block;
 }
