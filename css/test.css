@@ -214,22 +214,23 @@ ul
 {
     padding-block: 5rem;
     text-align: center;
+    font-size: 2rem;
 }
 
 .scroller 
 {
     width: 100%;
-    border: 1px solid red;
     position: relative;
 }
 
-.scroller a 
+.browserButtons 
 {
     position: absolute;
     display: block;
     width: fit-content;
     background-color: var(--primary);
     color: white;
+    font-size: 1rem;
     width: 2rem;
     height: 2rem;
     padding-block: .2rem;
@@ -240,7 +241,7 @@ ul
     margin-left: 1rem;
 }
 
-.scrollerNextButton 
+.scroller .scrollerNextButton 
 {
     right: 0;
     margin-left: 0rem;
@@ -293,4 +294,76 @@ ul
 @keyframes scroll 
 {
     to {transform: translate(calc(-50% - .5rem));}
+}
+
+/*customers*/
+
+#customerSection
+{
+    border: 1px solid red;
+}
+
+#customerFeebacks
+{
+    padding-block: 5rem;
+    font-size: 2.15rem;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.feedbackContainer
+{
+    border: 1px solid red;
+    width: 60%;
+    margin: 0 auto;    
+    display: flow-root;
+}
+
+.buttons 
+{
+    position: relative;
+}
+
+.feedbackLogo 
+{
+    float: left;
+    border: 1px solid red;
+    width: 50%;
+    text-align: end;
+}
+
+.feedbackLogo img
+{
+    margin-right: 1rem;
+}
+
+.feedback 
+{
+    min-height: 12rem;
+    padding: 1rem;
+    float: left;
+    border: 1px solid red;
+    width: 50%;
+    background: url('/img/icons/icon-quote.svg') no-repeat top left;
+    background-position-x: 1rem;
+}
+
+.feedback strong 
+{
+    padding-top: .5rem;
+    font-size: .8rem;
+    display: block;
+}
+
+.feedback p
+{
+    margin-top: 1.3rem;
+    font-weight: 600 !important;
+    font-size: 1.15rem;
+    line-height: 1.7;
+}
+
+.feedback span 
+{
+    font-size: .64rem;
 }
