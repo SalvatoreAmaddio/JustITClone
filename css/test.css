@@ -31,8 +31,9 @@ ul
 {
     background-repeat: no-repeat;
     background-position: right;
-    color: var(--white);
     background-color: var(--primary);
+    background-size: 50%;
+    color: var(--white);
     padding-bottom: 3.6rem;
     border-radius: 0 0 9rem 9rem;
 }
