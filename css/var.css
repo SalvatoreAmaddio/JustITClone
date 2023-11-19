@@ -1,6 +1,7 @@
 :root 
 {
     --primary: #216E70;
+    --secondary: #00A896;
     --white: #f8f9fa;
     --gray:  #707070;
     --font0: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
@@ -26,5 +27,5 @@ html
 
 #wrapper 
 {
-    background-color: var(--white);
+    background-color: white;
 }
