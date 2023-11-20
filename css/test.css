@@ -46,7 +46,7 @@ ul
     padding: 2.625rem 3rem 3.375rem;
 }
 
-#person button 
+#person button, #contactUsDetails button 
 {
     color: #fff;
     background-color: #264d8c;
@@ -388,12 +388,10 @@ ul
 {
     margin-top: 5rem;
     padding-block: 5rem;
-    border: 1px solid red;
 }
 
 #latest 
 {
-    border: 1px solid red;
     width: 75%;
     margin: 0 auto;
     font-size: 2rem;
@@ -401,22 +399,21 @@ ul
 
 #newsGroup 
 {
-    margin: 0 auto;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
     width: fit-content;
     display: flow-root;
-    border: 1px solid red; 
+    background-color: #F3F3F3;
 }
 
 .news
 {
     min-width: 23.3%;
     max-width: 23.3%;
-    min-height: 15rem;
-    max-height: 15rem;
+    min-height: 14.5rem;
+    max-height: 14.5rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    border: 1px solid red; 
+    background-color: white;
     float: left;
     display: flow-root;
 }
@@ -426,21 +423,26 @@ ul
     margin-right: 0;
 }
 
+#newsGroup .news:nth-of-type(4), #newsGroup .news:nth-of-type(5), #newsGroup .news:last-of-type
+{
+    margin-bottom: 0;
+}
+
 .subNew 
 {
-    min-width: 50%;
+    min-width: 48.3%;
 }
 
 .news img 
 {
-    max-width: 51.5%;
+    max-width: 48.2%;
     float: left;
 }
 
 .newsContent 
 {
     font-size: 1rem;
-    padding: 1rem;
+    padding: 2.1rem;
     width: 100%;
     min-height: inherit;
     position: relative;
@@ -486,4 +488,80 @@ ul
     width: .35rem;
     height: .4rem;
     vertical-align: middle;
+}
+
+
+#inspireWomen 
+{
+    background-image: url('/img/inspireWomen.png');
+}
+
+#skillBenefits 
+{
+    background-image: url('/img/skillBenefits285x300.png');
+}
+
+.overlayEffect 
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+    background-color: var(--primary);
+    object-fit: cover;
+    background-blend-mode: soft-light;
+
+}
+
+.overlayEffect span 
+{
+    color: white;
+}
+
+/*contact us*/
+
+#contactusSection
+{
+    background-image: url(/img/contactus.jpg);
+    background-repeat: no-repeat;
+    display: flow-root;
+    overflow: hidden;
+}
+
+#contactus
+{
+    float: right;
+    position: relative;
+    width: 50%;
+    color: white;
+    background-color: var(--primary);
+    z-index: 2;
+    padding-block: 2rem;
+}
+
+#contactUsDetails 
+{
+    padding: 5rem 2rem;
+    position: relative;
+    z-index: 2;
+    font-size: 1.3rem;
+}
+
+#contactUsDetails h2, #contactUsDetails p 
+{
+    margin-bottom: .8rem;
+}
+
+#contactUsDetails p 
+{
+    font-size: 1rem;
+}
+
+#decorLeft 
+{
+    position: absolute;
+    top: -4rem;
+    left: -5.3rem;
+    width: 100%;
+    z-index: 1;
 }
