@@ -420,6 +420,11 @@ ul
     display: flow-root;
 }
 
+#newsGroup .news:nth-of-type(3), #newsGroup .news:last-of-type 
+{
+    margin-right: 0;
+}
+
 .subNew 
 {
     min-width: 50%;
