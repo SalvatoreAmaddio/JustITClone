@@ -565,3 +565,25 @@ ul
     width: 100%;
     z-index: 1;
 }
+
+#trustpilot 
+{
+    border: 1px solid red;
+    min-height: 3rem;
+    margin-top: 3rem;
+    position: relative;
+    padding: 1rem;
+}
+
+#trustpilot svg 
+{
+    display: block;
+    position: absolute; 
+    height: 100%; 
+    width: 100%; 
+    left: 0; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+}
