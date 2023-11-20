@@ -410,9 +410,10 @@ ul
 
 .news
 {
-    min-width: 20%;
-    max-width: 20%;
-    min-height: 18rem;
+    min-width: 23.3%;
+    max-width: 23.3%;
+    min-height: 15rem;
+    max-height: 15rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
     border: 1px solid red; 
@@ -428,12 +429,11 @@ ul
 .subNew 
 {
     min-width: 50%;
-    min-height: 18rem;
 }
 
 .news img 
 {
-    max-width: 58%;
+    max-width: 51.5%;
     float: left;
 }
 
@@ -449,7 +449,7 @@ ul
 
 .subNew .newsContent 
 {
-    max-width: 42%;
+    max-width: 48.5%;
     float: left;
 }
 
