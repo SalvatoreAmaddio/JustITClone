@@ -401,14 +401,20 @@ ul
 
 #newsGroup 
 {
+    margin: 0 auto;
     margin-top: 1.5rem;
+    width: fit-content;
     display: flow-root;
     border: 1px solid red; 
 }
 
 .news
 {
-    min-height: 12.4rem;
+    min-width: 20%;
+    max-width: 20%;
+    min-height: 18rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
     border: 1px solid red; 
     float: left;
     display: flow-root;
@@ -416,19 +422,18 @@ ul
 
 .subNew 
 {
-    max-width: 66%;
-    min-height: inherit;
+    min-width: 50%;
+    min-height: 18rem;
 }
 
 .news img 
 {
-    max-width: 50%;
+    max-width: 58%;
     float: left;
 }
 
 .newsContent 
 {
-    max-width: 40%;
     font-size: 1rem;
     padding: 1rem;
     width: 100%;
@@ -439,7 +444,7 @@ ul
 
 .subNew .newsContent 
 {
-    max-width: 50%;
+    max-width: 42%;
     float: left;
 }
 
@@ -448,6 +453,7 @@ ul
     font-size: .6rem;
     color: var(--primary);
     font-weight: inherit;
+    display: inline-block;
 }
 
 .newsContent p 
