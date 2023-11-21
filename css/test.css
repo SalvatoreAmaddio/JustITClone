@@ -568,7 +568,6 @@ ul
 
 #trustpilot 
 {
-    border: 1px solid red;
     min-height: 3rem;
     margin-top: 3rem;
     position: relative;
@@ -591,12 +590,15 @@ ul
 footer 
 {
     font-size: .8rem;
+    margin-top: .1rem;
     display: flow-root;
+    background-color: #FAFAFA;
+    color: #707070;
+    border-top: 1px solid #dddddd;
 }
 
 #contactFormContainer 
 {
-    border: 1px solid red;
     width: 30%;
     padding-left: 6rem;
     padding-right: 1rem;
@@ -612,7 +614,6 @@ footer
 
 #contactForm 
 {
-    border: 1px solid red;
     width: 100%;
     padding: 1rem;
     padding-left: 0;
@@ -637,37 +638,44 @@ footer
     border-color: var(--primary);
 }
 
-#socialMedia svg 
+#socialMedia img 
 {
     display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-    border: 1px solid;
+    width: 1.1em;
+    height: 1.1em;
+}
+
+#socialMedia img:first-child 
+{
+    margin-right: 2rem;
 }
 
 #menuContainer
 {
     width: 70%;
+    padding-top: 2rem;
+    padding-left: 2rem;
     display: flow-root;
     float: left;
     position: relative;
 }
 
+#menuContainer p 
+{
+    clear: both;
+    position: relative;
+    bottom: -6.5rem;
+}
+
 #menu 
 {
     display: flow-root;
-    padding-top: 2rem;
-    padding-left: 2rem;
 }
 
 #menu ul 
 {
     float: left;
     max-width: 10rem;
-    border: 1px solid;
     margin-right: 1.5rem;
 }
 
@@ -678,12 +686,7 @@ footer
 
 #menu ul li 
 {
-    padding: .4rem;
-}
-
-#menuContainer p 
-{
-    clear: both;
+    padding: .45rem;
 }
 
 #backToTop 
