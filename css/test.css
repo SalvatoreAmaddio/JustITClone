@@ -587,3 +587,74 @@ ul
     right: 0;
     margin: 0 auto;
 }
+
+footer 
+{
+    display: flow-root;
+}
+
+#contactFormContainer 
+{
+    border: 1px solid red;
+    width: 30%;
+    padding-left: 6rem;
+    padding-right: 1rem;
+    float: left;
+}
+
+#contactForm 
+{
+    border: 1px solid red;
+    width: 100%;
+}
+
+#menuContainer
+{
+    width: 70%;
+    display: flow-root;
+    float: left;
+    position: relative;
+}
+
+#menu 
+{
+    display: flow-root;
+}
+
+#menu ul 
+{
+    float: left;
+}
+
+#menuContainer p 
+{
+    clear: both;
+}
+
+#backToTop 
+{
+    text-align: center;
+    border: 1PX solid red;
+    position: absolute;
+    width: fit-content;
+    top:50%;
+    right: 0;
+}
+
+#backToTop a 
+{
+    background-color: var(--primary);
+    color: white;
+    padding: 1rem;
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#backToTop span 
+{
+    display: block;
+    font-size: .6rem;
+}
