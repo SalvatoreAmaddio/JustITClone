@@ -590,6 +590,7 @@ ul
 
 footer 
 {
+    font-size: .8rem;
     display: flow-root;
 }
 
@@ -599,13 +600,52 @@ footer
     width: 30%;
     padding-left: 6rem;
     padding-right: 1rem;
+    padding-top: 2rem;
+    line-height: 2;
     float: left;
+}
+
+#contactFormContainer p:not(:nth-child(2))
+{
+    font-weight: 600 !important;
 }
 
 #contactForm 
 {
     border: 1px solid red;
     width: 100%;
+    padding: 1rem;
+    padding-left: 0;
+    line-height: 2rem;
+}
+
+#contactForm input[type=text] 
+{
+    padding: .3rem;
+}
+
+#contactForm input[type=email] 
+{
+    padding: .5rem;
+}
+
+#contactForm input[type=submit] 
+{
+    padding: .5rem;
+    background-color: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+#socialMedia svg 
+{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    border: 1px solid;
 }
 
 #menuContainer
@@ -619,11 +659,26 @@ footer
 #menu 
 {
     display: flow-root;
+    padding-top: 2rem;
+    padding-left: 2rem;
 }
 
 #menu ul 
 {
     float: left;
+    max-width: 10rem;
+    border: 1px solid;
+    margin-right: 1.5rem;
+}
+
+#menu ul li:first-child 
+{
+    font-weight: 600 !important;
+}
+
+#menu ul li 
+{
+    padding: .4rem;
 }
 
 #menuContainer p 
@@ -634,7 +689,7 @@ footer
 #backToTop 
 {
     text-align: center;
-    border: 1PX solid red;
+    border: 1px solid red;
     position: absolute;
     width: fit-content;
     top:50%;
