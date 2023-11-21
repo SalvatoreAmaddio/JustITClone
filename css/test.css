@@ -299,17 +299,11 @@ ul
 
 /*customers*/
 
-#customerSection
-{
-    border: 1px solid red;
-}
-
 #customerFeebacks
 {
     padding-block: 5rem;
     font-size: 2.15rem;
     text-align: center;
-    border: 1px solid red;
 }
 
 .feedbackContainer
